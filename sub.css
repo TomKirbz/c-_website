@@ -4,6 +4,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h3 {
+    margin: 15px;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -31,19 +35,19 @@ nav{
     height: 100%;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-weight: bold;
     font-size: 20px;
 }
 
 .navLi {
     display: flex;
+    color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     list-style: none;
     height: 100%;
-    width: 180px;   
+    width: 180px; 
+    text-decoration: none !important;
 }
-
 a:visited {
     color: rgb(255, 255, 255);
 }
@@ -69,10 +73,32 @@ a:visited {
     font-size: 25px;
 }
 
+.main-con-text-sub {
+    display: flex;
+    justify-content: center;
+}
+
+.main-con-subheader {
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.subheader-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+}
+
 table, th, td {
     border: 1px solid black;
     width: 300px;
     border-collapse: collapse;
+}
+th {
+    font-size: 30px;
 }
 td {
     font-size: 20px;
@@ -90,4 +116,20 @@ table {
 
 .dataType {
     color: rgb(0, 0, 187);
+}
+
+.mainDataType {
+    font-weight: bolder;
+}
+
+.var {
+    color: rgb(0, 194, 228)
+}
+
+.number {
+    color: rgb(100, 206, 141)
+}
+
+.method {
+    color: rgb(226, 197, 33)
 }
